@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5</title>
+    
+        
+</head>
+<body>
+    <fieldset style="width: 50%; height: 50%;" >
+        <legend>Personal Information</legend>
+    
+    <table border="1" ">
+        
+        <tbody>
+            <tr>
+                <td align="center"> 
+                    <h7>First Name</h7>
+                </td> 
+                <td width="100px">
+                    <input name="textfield" type="text" size="10" maxlength="50">
+                </td>  
+                <td width = "60px" align="center">
+                    <h7 >Gender</h7>
+                </td>  
+                <td align="center" colspan="5">
+                    
+                <form action="">                                      
+                    <input type="radio" 
+                    name="Sex" value="male">
+                    Female
+                    
+                    <input type="radio"
+                    name="Sex" value="Female">
+                    Male
+
+               </form>
+                </td>                      
+            <tr>
+                <td>Last Name</td>
+                <td>
+                    <input name="textfield" type="text" size="10" maxlength="50">
+                   
+                </td>
+                <td>Nationnality</td>
+                <td colspan="5">
+                <form action="" >
+                    <select name ="cannadian">
+                        <option value="thailand">Cannadian</option>
+                        <option value="thailand">Thailand</option>
+                        <option value="china">China</option>
+                        <option value="myanmar">Myanmar</option>
+                    </select>
+
+                </form>
+                </td>
+            </tr>
+
+            <tr>
+                <td height = "100px" align="center" >
+                    <h7>Address</h7>
+                </td>
+                    <td   colspan="7"  >
+
+                    <label for="&nbsp;" ></label>
+                     <textarea name="" cols="20" rows="6" maxlength="300"></textarea>
+
+                    </td>                    
+                </tr>            
+            </tbody>       
+         </table>  
+    </fieldset> 
+    <fieldset style="height: 50%; width: 50%;">
+        <legend>Medical History</legend>
+                   
+                        <tbody>
+                            <tr>
+                                <form action="">
+                                    
+                                    <input type="checkbox" name="Smallpox">  Smallpox
+                                    <input type="checkbox" name="Mumps"> Mumps
+                                    <input type="checkbox" name="Dizziness">  Dizziness
+                                    <input type="checkbox" name="Sneezing">  Sneezing
+                                    
+                                </form>
+                            </tr>
+                        </tbody>
+                        
+                    
+                </fieldset>
+                <fieldset style="width: 65%; height:50%;">
+                    <legend>Current Medication</legend>
+                   
+                     <form action="">
+                        Are you currently taking any medication? <input type="radio" > Yes<input type="radio" > No
+                        <br>
+                        <h7>If you are currently taking medication, please indicate it in the space below: </h7>
+
+                    </form>
+                    <td   colspan="7"  >
+
+                        <label for="&nbsp;" ></label>
+                        <textarea name="" cols="130" rows="15"></textarea>
+    
+                        </td>              
+                    
+                    
+                </fieldset>
+                <div>
+                    <input type="submit" value="Submit">
+                    <input type="submit" value="reset">
+                </div>
+</body>
+</html>
